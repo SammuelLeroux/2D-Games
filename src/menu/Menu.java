@@ -12,7 +12,7 @@ import main.Game;
 
 public class Menu extends JFrame
 {
-    private static final String FONT_FILE_PATH = "src/menu/Melted_Monster.ttf";
+    private static final String FONT_FILE_PATH = "./src/menu/Melted_Monster.ttf";
 
     public Menu()
     {

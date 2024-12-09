@@ -227,7 +227,7 @@ public abstract class Zombie extends Entity implements Runnable
                 // score player
                 score += this.getPoint();
                 // gold player
-                gold += 100; // this.getPoint() * 2;
+                gold += this.getPoint() * 2;
     
                 // Jouer un son
                 playSound("res/audio/die.wav");

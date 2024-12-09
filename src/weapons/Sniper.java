@@ -14,7 +14,7 @@ public class Sniper extends Weapon
     {
         // sniper coup par coup -> one shot
         super("Sniper", 100, WIDTH, 1, 5);
-        super.barrel = 1;
+        super.barrel = 5;
         this.fireRate = 5000;
         this.lastFireTime = 0;
     }
